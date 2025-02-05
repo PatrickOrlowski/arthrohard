@@ -1,3 +1,51 @@
+# Zadanie: Strona responsywna z produktami
+
+### Wytyczne
+
+1. **Responsywność strony**: Strona musi być w pełni responsywna, z możliwością dostosowania do różnych rozdzielczości ekranów. Wykonanie zgodnie z dobrymi praktykami (wolna ręka w implementacji).
+
+2. **Lista produktów**:
+
+   - Na dole strony należy wyświetlić "produkty".
+   - Dane produktów należy pobrać z API:
+
+     ```
+     https://brandstestowy.smallhost.pl/api/random
+     ```
+
+     API obsługuje parametry:
+
+     - `pageNumber`
+     - `pageSize`  
+       **Przykład**:  
+       `https://brandstestowy.smallhost.pl/api/random?pageNumber=3&pageSize=50`
+
+   - Funkcja ładowania produktów powinna działać przy przewijaniu strony na dół (infinite scroll).
+
+3. **Popup z detalami**:
+
+   - Po kliknięciu w produkt należy wyświetlić na środku ekranu popup.
+   - W popupie powinny znajdować się szczegóły wybranego produktu.
+
+4. **Opcja wyboru ilości elementów na stronie**:
+
+   - Przycisk "select" powinien pozwalać użytkownikowi wybrać ilość produktów na stronie.
+   - Domyślna wartość: **20 elementów**.
+
+5. **Projekt graficzny**:
+
+   - Aby zobaczyć projekt graficzny, należy założyć konto na Figma.
+   - Link do projektu:  
+     [Figma - Arthrohard-TEST](https://www.figma.com/file/ZR8RRI5bqfYu6H4uRr0BPI/Arthrohard-TEST?type=design&node-id=0-1&mode=design)
+
+6. **Technologia**:
+   - Strona musi być zakodowana w czystym HTML/CSS/JavaScript.
+   - Po rozpakowaniu paczki z zadaniem strona powinna działać od razu po otwarciu pliku.
+
+### Uwagi
+
+- Zastosować standardowe techniki frontendu dla responsywności oraz user experience.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
